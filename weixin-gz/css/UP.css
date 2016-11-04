@@ -1,0 +1,13 @@
+html { height: 100%; }
+
+body { height: 100%; }
+
+.bgd { width: 100%; background: url(../images/up/up-bgd.jpg) no-repeat; background-size: 100% 100%; height: 100%; }
+.bgd ul { width: 100%; bottom: 30%; }
+.bgd ul li { width: 50%; float: left; font-size: 2em; text-align: center; }
+.bgd ul li p { color: #fff; margin-top: 10px; }
+.bgd ul li div { width: 116px; height: 116px; border-radius: 50%; border: 2px solid #fff; }
+.bgd ul li .div1 { margin-left: 102px; background: url(../images/up/icon1.png) no-repeat; background-position: 17px 16px; }
+.bgd ul li .div2 { background: url(../images/up/icon2.png) no-repeat; margin-left: 100px; background-position: 20px 20px; }
+
+/*# sourceMappingURL=UP.css.map */

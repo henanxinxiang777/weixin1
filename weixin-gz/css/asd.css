@@ -1,0 +1,28 @@
+body,body * {margin: 0;padding: 0;-webkit-appearance: none;outline: none;border: none;list-style: none}
+body {font: 12px "F";}a {color: #000;text-decoration: none;}a:hover {color: #f60;text-decoration: none;}
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0;}
+.clearfix:before, .clearfix:after { content: '.'; display: block; overflow: hidden; visibility: hidden; font-size: 0; line-height: 0; width: 0; height: 0;}
+.clearfix:after{ clear: both;}
+.clearfix{ zoom: 1;}@charset "UTF-8";
+.fl-left { float: left; }
+.fl-right { float: right; }
+.absolute { position: absolute; }
+.relative { position: relative; }
+.english{font-family:"微软雅黑";}
+.bold{font-weight: bold;}
+.color2{color: #868686;}
+.color1{color: #fff;}
+/*头部公共样式*/
+.header-main { background: url(../images/Tenstories.jpg) no-repeat; width: 100%; height: 1327px; }
+.header-main header { width: 100%; height: 40px; padding-top: 48px !important; display: block; }
+.header-main header i { display: inline-block; width: 40px; height: 40px; background: url(../images/icon-back.png) no-repeat; background-size: 23px 36px; margin: 5px 5px 5px 24px; z-index: 40;}
+
+/*底部样式*/
+footer { background: url(../images/footer-bgd.jpg) no-repeat; text-align: center; color: #fff;height: 100%; }
+footer img:nth-child(1) { margin-top: 48px; }
+footer p:nth-child(2) { margin-top: 35px; font-size: 1.833em; }
+footer p:nth-child(3) { font-size: 2em; width: 235px; height: 36px; border: 1px solid #fff; border-radius: 20px; margin: 0 auto; margin-top: 28px; font-style: italic; line-height: 36px; font-weight: bold; }
+footer p:nth-child(4) { margin-top: 35px; font-size: 2.166em; }
+footer p:nth-child(5) { margin-top: 19px; margin-bottom: 30px; font-size: 1.666em; }
+footer p:nth-child(7) { margin-top: 27px; font-size: 1.166em; padding-bottom: 54px; color: #404a53; }
+footer img:nth-child(6){ box-shadow: 0px 0px 20px #000;}

@@ -1,0 +1,48 @@
+.emotion-header { background: url(../images/emotion/emotion.jpg) no-repeat !important; height: 265px !important; }
+
+.nav .top-bgd { width: 100%; height: 61px; background-color: #392c2b; margin-top: -1px; }
+.nav .nav-block { width: 600px; height: 790px; background-color: #f79927; margin: 0 auto; margin-top: -45px; border-radius: 10px; box-sizing: border-box; padding-top: 14px; }
+.nav .nav-block div { margin: 0 auto; width: 576px; height: 760px; border: 1px solid #fff; border-radius: 10px; color: #fff; }
+.nav .nav-block div a { color: #fff; }
+.nav .nav-block div p { font-size: 2rem; text-align: left; padding-left: 110px; }
+.nav .nav-block div h2:nth-child(1), .nav .nav-block div p:nth-child(2) { margin-top: 10px; text-align: center; padding: 0; }
+.nav .nav-block div p:nth-child(3) { margin-top: 45px; }
+.nav .nav-block div .right-icon:before { display: inline-block; content: " "; width: 15px; height: 22px; position: absolute; top: 9px; left: 320px; background: url(../images/emotion/emotion-x.png) no-repeat; }
+.nav .nav-block div .left-icon:before { margin-left: 90px; display: inline-block; content: " "; width: 55px; height: 55px; position: absolute; left: -44px; top: -37px; }
+.nav .nav-block div .left-icon1:before { background: url(../images/emotion/emotion-icon1.png) no-repeat; }
+.nav .nav-block div .left-icon2:before { background: url(../images/emotion/emotion-icon2.png) no-repeat; }
+.nav .nav-block div .left-icon3:before { background: url(../images/emotion/emotion-icon3.png) no-repeat; }
+.nav .nav-block div .left-icon4:before { background: url(../images/emotion/emotion-icon4.png) no-repeat; }
+.nav .nav-block div .left-icon5:before { background: url(../images/emotion/emotion-icon5.png) no-repeat; }
+.nav .nav-block div .left-icon6:before { background: url(../images/emotion/emotion-icon6.png) no-repeat; }
+.nav .nav-block .font34 { font-size: 2.833rem; }
+.nav .nav-block .right-icon { position: relative; }
+.nav .nav-block .left-icon { position: relative; font-size: 1.333rem; margin-bottom: 28px; margin-top: 5px; }
+
+.column-box { box-shadow: 0px 0px 20px #000; width: 610px; margin: 0 auto; margin-bottom: 112px; }
+
+.column .xx-img img:nth-child(1) { position: relative; bottom: -6px; width: 610px; height: 501px; }
+.column .xx-img a i:nth-child(1) { width: 180px; height: 90px; background: url(../images/emotion/360.png) no-repeat; background-size: 180px 90px; position: absolute; top: 50%; left: 50%; margin: -45px 0 0 -90px; -webkit-filter: opacity(0.2); }
+.column .xx-img a .i-img { background: url(../images/emotion/3602.png) no-repeat !important; }
+.column .xx-img a .i-tm { -webkit-filter: opacity(0.6) !important; }
+.column p:nth-child(3) { font-size: 2em; padding: 0 45px; color: #444; }
+.column p:nth-child(4) { font-size: 1.833em; color: #777777; padding: 22px 0; }
+.column .Price { width: 132px; height: 132px; border-radius: 50%; background-color: #F79927; color: #fff; text-align: center; line-height: 132px; font-size: 1.666em; position: absolute; left: 235px; bottom: -65px; }
+.column .kuang { position: absolute; width: 304px; height: 307px; }
+.column .kuang-1 { top: 0; left: 14px; }
+.column .kuang-2 { top: 0; right: 15px; }
+.column .kuang-3 { bottom: 5px; left: 14px; }
+.column .kuang-4 { bottom: 5px; right: 15px; }
+.column .emn div { width: 187px; height: 46px; background-color: rgba(242, 242, 242, 0.3); border: 1px solid #93918b; border-radius: 20px; line-height: 46px; font-size: 2.166em; color: #F79927; position: absolute; left: 60px; }
+.column .emn .img1 { top: 100px; }
+.column .emn .img2 { top: 181px; }
+.column .emn .img3 { bottom: 166px; }
+.column .emn .img4 { bottom: 86px; }
+.column .emn .img5 { left: 380px; top: 100px; }
+.column .emn .img6 { left: 380px; top: 181px; }
+.column .emn .img7 { width: 207px; left: 368px; bottom: 208px; }
+.column .emn .img8 { left: 375px; bottom: 148px; }
+.column .emn .img9 { left: 375px; bottom: 89px; }
+.column .emn .img10 { left: 375px; bottom: 31px; }
+
+/*# sourceMappingURL=emotion.css.map */

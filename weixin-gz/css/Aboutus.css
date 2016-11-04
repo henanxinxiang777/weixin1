@@ -1,0 +1,33 @@
+.Aboutus-header { background: url(../images/aboutus.jpg) no-repeat !important; height: 324px !important; }
+
+.column { margin-top: 20px; text-align: center; }
+.column h2 { font-size: 3.733em; font-weight: bold; }
+.column .top-border { height: 6px; width: 156px; background-color: #ff8800; border-radius: 5px; margin: 0 auto; }
+.column .ourstory { font-size: 2.333em; padding-top: 12px; margin-bottom: 30px; }
+.column .pain { margin-bottom: 30px; }
+.column .pain p { float: left; color: #fff; }
+.column .pain p:nth-child(1) { font-size: 3em; line-height: 102px; width: 137px; height: 102px; background-color: #f79927; border-top-left-radius: 10px; border-bottom-left-radius: 10px; margin-left: 18px; }
+.column .pain p:nth-child(2) { text-align: left; font-size: 2em; color: #000; width: 474px; height: 102px; background-color: #f9f9f9; border: 1px solid #ddd; border-top-right-radius: 10px; border-bottom-right-radius: 10px; box-sizing: border-box; padding: 27px 10px 0 20px; }
+.column .pain p:nth-child(2) span { color: #ff8800; }
+.column .pain .au-p { padding-top: 10px !important; }
+.column .team ul { margin: 0 auto; width: 612px; box-shadow: 0px 0px 19px #b7b7b7; }
+.column .team ul li { float: left; }
+.column .team ul li p { color: #555; font-size: 1.833em; }
+.column .team ul .li1 { width: 306px; height: 298px; border: 3px solid #ff8800; }
+.column .team ul .li1 div { width: 100%; height: 82px; position: absolute; bottom: 0; background: #f79927; }
+.column .team ul .li1 div p { color: #fff; font-size: 1.666em; }
+.column .team ul .li1 div p:nth-child(1) { font-size: 2.166em; margin: 16px 0 10px 0; }
+.column .team ul .li2 { border: 1px solid #ccc; border-bottom: none; width: 298px; height: 303px; }
+.column .team ul .li3 { width: 311px; height: 411px; border: 1px solid #ccc; }
+.column .team ul .li4 { width: 298px; height: 411px; border: 1px solid #ccc; border-left: none; }
+.column .team ul li:nth-child(2) p:nth-child(1), .column .team ul li:nth-child(3) p:nth-child(1), .column .team ul li:nth-child(4) p:nth-child(1) { margin-top: 27px; font-size: 2.333em; color: #222; }
+.column .team ul li:nth-child(2) p:nth-child(2), .column .team ul li:nth-child(3) p:nth-child(2), .column .team ul li:nth-child(4) p:nth-child(2) { margin: 26px 0 17px 0; }
+.column .team ul li:nth-child(2) p:nth-child(3), .column .team ul li:nth-child(3) p:nth-child(3), .column .team ul li:nth-child(4) p:nth-child(3) { padding-bottom: 47px; border-bottom: 1px solid #ccc; }
+.column .team ul li:nth-child(2) p:nth-child(4), .column .team ul li:nth-child(3) p:nth-child(4), .column .team ul li:nth-child(4) p:nth-child(4) { margin-top: 27px; font-size: 2.333em; color: #222; }
+.column .team ul li:nth-child(2) p:nth-child(5), .column .team ul li:nth-child(3) p:nth-child(5), .column .team ul li:nth-child(4) p:nth-child(5) { margin-top: 27px; font-size: 2.333em; color: #222; }
+.column .team ul li:nth-child(2) p:nth-child(6), .column .team ul li:nth-child(3) p:nth-child(6), .column .team ul li:nth-child(4) p:nth-child(6) { margin: 26px 0 29px 0; }
+.column .team ul li:nth-child(2) p:nth-child(7), .column .team ul li:nth-child(3) p:nth-child(7), .column .team ul li:nth-child(4) p:nth-child(7) { margin-bottom: 50px; }
+.column .team ul li:nth-child(2) p:nth-child(3) { padding-bottom: 16px; }
+.column .e-mail { width: 290px; height: 72px; background-color: #fff; border-radius: 10px; bottom: 22px; left: 50%; margin-left: -145px; line-height: 72px; font-size: 2em; color: #ff8800; }
+
+/*# sourceMappingURL=Aboutus.css.map */

@@ -1,0 +1,17 @@
+.demand-header { background: url(../images/aboutus.jpg) no-repeat !important; height: 334px !important; }
+
+.alert1 { width: 578px; height: 100px; background-color: rgba(255, 255, 255, 0.8); position: relative; top: -108px; margin: 0 auto; font-size: 2.166em; text-align: center; border-top-right-radius: 20px; border-top-left-radius: 20px; }
+.alert1 p:nth-child(1) { width: 167px; height: 8px; background-color: #F79927; margin-left: 200px; margin-bottom: 28px; }
+.alert1 p:nth-child(2) { margin-bottom: 32px; }
+.alert1 ul li { box-sizing: border-box; border-bottom: 1px solid #bbb; width: 574px; margin: 0 auto; background: #fff; text-align: left; padding: 24px 0 24px 34px; }
+.alert1 ul li span { vertical-align: top; margin-top: -1px; margin-left: 21px; display: inline-block; }
+.alert1 ul li .input[type='checkbox'] { width: 22px; height: 22px; border: none; background: url(../images/fun-icon.jpg) no-repeat; }
+.alert1 ul li .input[type='checkbox']:focus { background: url(../images/fun-icon.jpg) no-repeat; }
+.alert1 ul li .input[type='checkbox']:checked { background: url(../images/fun-icon2.jpg) no-repeat; }
+.alert1 input[type="submit"] { width: 260px; height: 65px; background-color: #FF8800; border-radius: 20px; color: #fff; margin-top: 200px; font-size: 2.166rem; }
+
+.box { box-shadow: 0px 0px 20px #000; top: 152px !important; }
+
+.border { border: 1px solid #bbb !important; }
+
+/*# sourceMappingURL=demand.css.map */

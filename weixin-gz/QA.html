@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<meta name="format-detection"content="telephone=no"/>
+	<meta name="full-screen" content="yes">
+	<meta name="x5-fullscreen" content="true">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>问答&知识点</title>
+	<link rel="stylesheet" href="css/QA.css?s=20161124"/>
+	<link rel="stylesheet" type="text/css" href="css/asd.css?s=20161121"/>
+	<link rel="stylesheet" type="text/css" href="css/FuturaLTMedium.css"/>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/public.js"></script>
+	<script src="js/adaptUILayout.js"></script>
+	<script type="text/javascript">
+		adaptUILayout.adapt(640);
+
+	</script>
+</head>
+<body>
+	<div class="header-main QA-header">
+		<header>
+			<i class="blck"></i>
+		</header>
+	</div>
+	<ul class="QA-maintop clearfix">
+		<li class="li">问答</li>
+		<li>知识点</li>
+	</ul>
+	<img src="images/up/qa.jpg" class="qa" style="margin-bottom: 28px;"/>
+	<img src="images/up/zhishi.jpg" class="zs" style="display: none;margin-bottom: 28px;"/>
+	<footer>
+		<img src="images/jxw2.png"/>
+		<p>海狸局长</p>
+		<p class="english"><a href="tel:400-133-8787" class="color1">400-133-8787</a></p>
+		<p class="english">puji@pujispace.com</p>
+		<p>上海市沪太支路538号飞马旅5i中心317</p>
+		<img src="images/QRcode.jpg"/>
+		<p>Copyright©2016 Apple Inc.All rights reserved</p>
+	</footer>
+<script type="text/javascript">
+	$(".QA-maintop li").click(function(){
+		$(".QA-maintop li").removeClass("li");
+		$(this).addClass("li");
+		if($(this).index() == 0){
+			$(".qa").show();
+			$(".zs").hide();
+		}else{
+			$(".zs").show();
+			$(".qa").hide();
+		}
+	});
+</script>
+</body>
+</html>

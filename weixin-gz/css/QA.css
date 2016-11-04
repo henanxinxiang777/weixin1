@@ -1,0 +1,10 @@
+.QA-header { background: url(../images/QA-header.jpg) no-repeat !important; height: 243px !important; }
+
+.QA-maintop { width: 100%; }
+.QA-maintop li { width: 50%; float: left; height: 77px; background-color: #e6e6e6; text-align: center; font-size: 2.666em; line-height: 77px; border-bottom: 2px solid #e6e6e6; }
+.QA-maintop .li { background-color: #ff8800; color: #fff; border-bottom: 2px solid #fe4d00; }
+
+.QA { width: 100%; }
+.QA li { width: 100%; height: 185px; border-bottom: 1px solid #dadada; }
+
+/*# sourceMappingURL=QA.css.map */

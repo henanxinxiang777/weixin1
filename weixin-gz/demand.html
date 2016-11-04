@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<meta name="format-detection"content="telephone=no"/>
+	<meta name="full-screen" content="yes">
+	<meta name="x5-fullscreen" content="true">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>涨知识</title>
+	<link rel="stylesheet" href="css/demand.css"/>
+	<link rel="stylesheet" href="css/Customer.css"/>
+	<link rel="stylesheet" type="text/css" href="css/asd.css?s=20161121"/>
+	<link rel="stylesheet" type="text/css" href="css/FuturaLTMedium.css"/>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/public.js"></script>
+	<script src="js/adaptUILayout.js"></script>
+	<script type="text/javascript">
+		adaptUILayout.adapt(640);
+	</script>
+</head>
+<body>
+	<div class="header-main demand-header">
+		<header>
+			<i class="blck"></i>
+		</header>
+	</div>
+	<div class="alert1" id="alert1">
+		<p></p>
+		<p>Q:前厅您需要哪些功能？</p>
+		<ul>
+			<li><input type="checkbox" class="input"/><span>LOGO展示</span></li>
+			<li><input type="checkbox" class="input"/><span>前台</span></li>
+			<li><input type="checkbox" class="input"/><span>洽谈区（半私密空间）</span></li>
+			<li><input type="checkbox" class="input"/><span>等候区（开敞空间）</span></li>
+		</ul>
+		<input type="submit" value="下一题" class="submit"/>
+	</div>
+	<div class="alert1" id="alert2" style="display: none;">
+		<p></p>
+		<p>Q:董事长室您需要哪些功能？</p>
+		<ul>
+			<li><input type="checkbox" class="input"/><span>洽谈区</span></li>
+			<li><input type="checkbox" class="input"/><span>休息区</span></li>
+			<li><input type="checkbox" class="input"/><span>投影区</span></li>
+			<li><input type="checkbox" class="input"/><span>储物柜</span></li>
+		</ul>
+		<input type="submit" value="下一题" class="submit"/>
+	</div>
+	<div class="alert1" id="alert3" style="display: none;">
+		<p></p>
+		<p>Q:经理室您需要哪些功能？</p>
+		<ul>
+			<li><input type="checkbox" class="input"/><span>洽谈区</span></li>
+			<li><input type="checkbox" class="input"/><span>休息区</span></li>
+			<li><input type="checkbox" class="input"/><span>储物柜</span></li>
+		</ul>
+		<input type="submit" value="下一题" class="submit"/>
+	</div>
+	<div class="alert1" id="alert4" style="display: none;">
+		<p></p>
+		<p>Q:产品展示区您需要哪些功能？</p>
+		<ul>
+			<li><input type="checkbox" class="input"/><span>办公区产品展示（展架）</span></li>
+			<li><input type="checkbox" class="input"/><span>办公区产品展示（隔板）</span></li>
+			<li><input type="checkbox" class="input"/><span>橱窗展示</span></li>
+			<li><input type="checkbox" class="input"/><span>墙面展示</span></li>
+		</ul>
+		<input type="submit" value="下一题" class="submit"/>
+	</div>
+	<div class="alert1" id="alert5" style="display: none;">
+		<p></p>
+		<p>Q:员工办公区您需要哪些功能？</p>
+		<ul>
+			<li><input type="checkbox" class="input"/><span>轻隔断</span></li>
+			<li><input type="checkbox" class="input"/><span>格子间</span></li>
+			<li><input type="checkbox" class="input"/><span>有桌屏</span></li>
+			<li><input type="checkbox" class="input"/><span>无桌屏</span></li>
+		</ul>
+		<input type="submit" value="下一题" class="submit"/>
+	</div>
+	<div class="absolute alert box" style=" display: none;">
+		<div class="alert-top">
+				<span></span>
+				<p>呼叫客服</p>
+				<p>如果您有任何办公室装修的需求或问题都可以立即与我们咨询。</p>
+			</div>
+			<img src="images/QRcode.jpg"/>
+			<p>扫描二维码，联系客服</p>
+			<a href="tel:400-133-8787"><div class="tel border">一键拨号</div></a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(".submit").click(function(){
+			$(this).parents(".alert1").hide();
+			$(this).parents(".alert1").next().show();
+//			console.log();
+		});
+	</script>
+</body>
+</html>
